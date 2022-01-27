@@ -13,7 +13,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://github.com/Shotaro-pro/" target="_blank" rel="noopener">
-        つっちー
+        俺氏
       </Link>
     </Typography>
   );
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SignIn() {
+export default function SignIn({ setName }) {
   const classes = useStyles();
 
   return (
